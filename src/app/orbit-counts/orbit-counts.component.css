@@ -1,0 +1,25 @@
+.counts {
+    background:  rgb(227, 243, 250);
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 225px;
+    overflow: hidden;
+}
+
+.counts div {
+    padding: 8px;
+}
+
+.counts span {
+    float: right;
+}
+
+.counts div:nth-child(odd) {
+  background: rgb(255, 249, 253);
+}
+
+.counts .totalColor:first-child {
+  background: #a9a7c7;
+  color: #fff;
+}
